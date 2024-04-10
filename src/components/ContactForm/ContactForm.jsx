@@ -3,8 +3,8 @@ import { useId } from "react";
 import css from "./ContactForm.module.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useSelector, useDispatch } from "react-redux";
-import { selectContacts } from "../../redux/contactsSlice";
-import { addContact } from "../../redux/contactsOps";
+import { selectContacts } from "../../redux/contacts/selectors";
+import { addContact } from "../../redux/contacts/operations";
 import { toast } from "react-toastify";
 
 const contactSchema = Yup.object().shape({
