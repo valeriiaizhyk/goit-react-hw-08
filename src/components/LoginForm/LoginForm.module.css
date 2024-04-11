@@ -1,0 +1,48 @@
+.div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 300px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.wrapBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.field {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(210, 210, 210);
+}

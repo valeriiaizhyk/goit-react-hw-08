@@ -1,0 +1,8 @@
+.div {
+  display: flex;
+  gap: 16px;
+}
+
+.active {
+  color: rgb(238, 241, 9);
+}

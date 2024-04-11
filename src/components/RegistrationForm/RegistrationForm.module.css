@@ -1,0 +1,59 @@
+.div {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.field {
+  width: 350px;
+  height: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(210, 210, 210);
+}
+.wrapBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.link {
+  background-color: rgb(235, 235, 235);
+  color: rgb(61, 61, 61);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  width: 100px;
+}
